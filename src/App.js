@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
+// App is the intialial function that keeps things together
 const App = () => {
   const [result, setResult] = useState("");
   const handleClick = (e) => {
